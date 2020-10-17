@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".ui.fragment.history.HistoryFragment">
+        tools:context=".quizApp.fragments.history.HistoryFragment">
 
         <TextView
             android:id="@+id/fragment_name"

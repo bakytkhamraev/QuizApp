@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="30sp"
-    tools:context=".ui.presentation.question.QuestionActivity">
+    tools:context=".quizApp.presentation.question.QuestionActivity">
 
     <TextView
         android:id="@+id/quest_category"
@@ -87,7 +87,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.14" />
 
-    <com.example.quizappgeektech.ui.presentation.NonScrollRecyclerView
+    <com.example.quizappgeektech.quizApp.Scroll.NonScrollRecyclerView
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
