@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuizAppGeekTech</string>
+
+    <string name="main">Main</string>
+    <string name="history">History</string>
+    <string name="quiz">QuizApp</string>
+    <string name="category">Category</string>
+    <string name="questions_amount">Questions amount:</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="start">START</string>
+    <string name="_10">0</string>
+    <string name="_0">0</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="settings">Settings</string>
+    <string name="delete">Удалить</string>
+    <string name="share">Поделиться</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="sim">/</string>
+    <string name="zero">0</string>
+    <string name="ten">10</string>
+    <string name="result">Result:</string>
+    <string name="categoryR">Category:</string>
+    <string name="ololo">ololo</string>
+    <string name="difficultyR">Difficulty:</string>
+    <string name="correct_answer">Correct answer:</string>
+    <string name="all">ALL</string>
+    <string name="_80">80%</string>
+    <string name="finish">Finish</string>
+    <string name="mixed">Mixed</string>
+    <string name="correct_answers">Correct answers:</string>
+    <string name="_8_10">8/10</string>
+    <string name="easy">Easy</string>
+    <string name="_13_may_2020_21_34">13 may 2020 21:34</string>
+    <string name="skip">Skip</string>
+</resources>

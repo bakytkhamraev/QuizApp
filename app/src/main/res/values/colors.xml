@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="colorGray">#67E9EFEF</color>
+    <color name="colorPink">#DBA5F5</color>
+    <color name="text_color">@color/answer</color>
+    <color name="colorRed">#F80505</color>
+
+
+    <color name="answer">#3383DA</color>
+
+</resources>
