@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.fragments.main;
+package com.example.quizappgeektech.quizApp.ui.fragments.main;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

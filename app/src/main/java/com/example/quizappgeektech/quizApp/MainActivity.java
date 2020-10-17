@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.quizappgeektech.R;
-import com.example.quizappgeektech.quizApp.Scroll.NonScrollViewPager;
+import com.example.quizappgeektech.quizApp.scroll.NonScrollViewPager;
 import com.example.quizappgeektech.quizApp.adapters.ViewPagerAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

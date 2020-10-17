@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp;
+package com.example.quizappgeektech.quizApp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;

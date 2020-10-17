@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.quizappgeektech.quizApp.fragments.history.HistoryFragment;
-import com.example.quizappgeektech.quizApp.fragments.main.MainFragment;
-import com.example.quizappgeektech.quizApp.fragments.setting.SettingFragment;
+import com.example.quizappgeektech.quizApp.ui.fragments.history.HistoryFragment;
+import com.example.quizappgeektech.quizApp.ui.fragments.main.MainFragment;
+import com.example.quizappgeektech.quizApp.ui.fragments.setting.SettingFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 

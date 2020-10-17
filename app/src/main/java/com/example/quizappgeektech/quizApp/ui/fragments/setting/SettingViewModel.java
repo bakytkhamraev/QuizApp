@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.fragments.setting;
+package com.example.quizappgeektech.quizApp.ui.fragments.setting;
 
 import androidx.lifecycle.ViewModel;
 

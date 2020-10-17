@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.presentation.question;
+package com.example.quizappgeektech.quizApp.ui.question;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

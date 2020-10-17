@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.Scroll;
+package com.example.quizappgeektech.quizApp.scroll;
 
 import android.content.Context;
 import android.util.AttributeSet;

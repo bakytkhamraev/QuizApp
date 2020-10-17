@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.fragments.history;
+package com.example.quizappgeektech.quizApp.ui.fragments.history;
 
 import androidx.lifecycle.ViewModel;
 

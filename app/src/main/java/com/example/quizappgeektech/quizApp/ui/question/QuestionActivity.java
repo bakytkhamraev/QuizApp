@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.presentation.question;
+package com.example.quizappgeektech.quizApp.ui.question;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ import com.example.quizappgeektech.quizApp.adapters.ItemQuestionAdapter;
 import com.example.quizappgeektech.quizApp.interfaces.OnItemClicked;
 import com.example.quizappgeektech.quizApp.models.QuizModel;
 import com.example.quizappgeektech.quizApp.models.ResultQuiz;
-import com.example.quizappgeektech.quizApp.presentation.result.ResultActivity;
+import com.example.quizappgeektech.quizApp.ui.result.ResultActivity;
 import com.example.quizappgeektech.quizApp.Config;
 
 import java.util.List;

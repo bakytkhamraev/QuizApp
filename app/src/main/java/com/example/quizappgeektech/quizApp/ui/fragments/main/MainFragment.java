@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.fragments.main;
+package com.example.quizappgeektech.quizApp.ui.fragments.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.quizappgeektech.R;
 import com.example.quizappgeektech.quizApp.models.CategoryModel;
 import com.example.quizappgeektech.quizApp.models.TriviaCategory;
-import com.example.quizappgeektech.quizApp.presentation.question.QuestionActivity;
+import com.example.quizappgeektech.quizApp.ui.question.QuestionActivity;
 import com.example.quizappgeektech.quizApp.Config;
 
 import java.util.ArrayList;
