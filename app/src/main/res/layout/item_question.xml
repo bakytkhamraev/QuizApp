@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/quest_answer1_tv"
+            android:id="@+id/one_answer"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="80dp"
@@ -39,7 +39,7 @@
             app:layout_constraintTop_toBottomOf="@id/quest_title_tv" />
 
         <TextView
-            android:id="@+id/quest_answer2_tv"
+            android:id="@+id/two_answer"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
@@ -48,10 +48,10 @@
             android:textColor="@color/answer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/quest_answer1_tv" />
+            app:layout_constraintTop_toBottomOf="@id/one_answer" />
 
         <TextView
-            android:id="@+id/quest_answer3_tv"
+            android:id="@+id/three_answer"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
@@ -60,10 +60,10 @@
             android:textColor="@color/answer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/quest_answer2_tv" />
+            app:layout_constraintTop_toBottomOf="@id/two_answer" />
 
         <TextView
-            android:id="@+id/quest_answer4_tv"
+            android:id="@+id/four_answer"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
@@ -72,7 +72,7 @@
             android:textColor="@color/answer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/quest_answer3_tv" />
+            app:layout_constraintTop_toBottomOf="@id/three_answer" />
 
         <Button
             android:id="@+id/quest_skip_btn"
@@ -87,7 +87,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/quest_answer4_tv" />
+            app:layout_constraintTop_toBottomOf="@id/four_answer" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

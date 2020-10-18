@@ -59,62 +59,62 @@ public class ItemQuestionAdapter extends RecyclerView.Adapter<ItemQuestionAdapte
                 @Override
                 public void onClick(View view) {
                     listener.onItemClick();
-                    binding.questAnswer1Tv.setEnabled(false);
-                    binding.questAnswer2Tv.setEnabled(false);
-                    binding.questAnswer3Tv.setEnabled(false);
-                    binding.questAnswer4Tv.setEnabled(false);
+                    binding.oneAnswer.setEnabled(false);
+                    binding.twoAnswer.setEnabled(false);
+                    binding.threeAnswer.setEnabled(false);
+                    binding.fourAnswer.setEnabled(false);
                 }
             });
 
-            binding.questAnswer1Tv.setOnClickListener(new View.OnClickListener() {
+            binding.oneAnswer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String s = binding.questAnswer1Tv.getText() + "";
-                    isTryAnswer(s, answerTrue, binding.questAnswer1Tv);
+                    String s = binding.oneAnswer.getText() + "";
+                    isTryAnswer(s, answerTrue, binding.oneAnswer);
                     listener.onItemClick();
-                    binding.questAnswer1Tv.setEnabled(false);
-                    binding.questAnswer2Tv.setEnabled(false);
-                    binding.questAnswer3Tv.setEnabled(false);
-                    binding.questAnswer4Tv.setEnabled(false);
+                    binding.oneAnswer.setEnabled(false);
+                    binding.twoAnswer.setEnabled(false);
+                    binding.threeAnswer.setEnabled(false);
+                    binding.fourAnswer.setEnabled(false);
 
 
                 }
             });
-            binding.questAnswer2Tv.setOnClickListener(new View.OnClickListener() {
+            binding.twoAnswer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String s = binding.questAnswer2Tv.getText() + "";
-                    isTryAnswer(s, answerTrue, binding.questAnswer2Tv);
+                    String s = binding.twoAnswer.getText() + "";
+                    isTryAnswer(s, answerTrue, binding.twoAnswer);
                     listener.onItemClick();
-                    binding.questAnswer1Tv.setEnabled(false);
-                    binding.questAnswer2Tv.setEnabled(false);
-                    binding.questAnswer3Tv.setEnabled(false);
-                    binding.questAnswer4Tv.setEnabled(false);
+                    binding.oneAnswer.setEnabled(false);
+                    binding.twoAnswer.setEnabled(false);
+                    binding.threeAnswer.setEnabled(false);
+                    binding.fourAnswer.setEnabled(false);
 
                 }
             });
-            binding.questAnswer3Tv.setOnClickListener(new View.OnClickListener() {
+            binding.threeAnswer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String s = binding.questAnswer3Tv.getText() + "";
-                    isTryAnswer(s, answerTrue, binding.questAnswer3Tv);
+                    String s = binding.threeAnswer.getText() + "";
+                    isTryAnswer(s, answerTrue, binding.threeAnswer);
                     listener.onItemClick();
-                    binding.questAnswer1Tv.setEnabled(false);
-                    binding.questAnswer2Tv.setEnabled(false);
-                    binding.questAnswer3Tv.setEnabled(false);
-                    binding.questAnswer4Tv.setEnabled(false);
+                    binding.oneAnswer.setEnabled(false);
+                    binding.twoAnswer.setEnabled(false);
+                    binding.threeAnswer.setEnabled(false);
+                    binding.fourAnswer.setEnabled(false);
                 }
             });
-            binding.questAnswer4Tv.setOnClickListener(new View.OnClickListener() {
+            binding.fourAnswer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String s = binding.questAnswer4Tv.getText() + "";
-                    isTryAnswer(s, answerTrue, binding.questAnswer4Tv);
+                    String s = binding.fourAnswer.getText() + "";
+                    isTryAnswer(s, answerTrue, binding.fourAnswer);
                     listener.onItemClick();
-                    binding.questAnswer1Tv.setEnabled(false);
-                    binding.questAnswer2Tv.setEnabled(false);
-                    binding.questAnswer3Tv.setEnabled(false);
-                    binding.questAnswer4Tv.setEnabled(false);
+                    binding.oneAnswer.setEnabled(false);
+                    binding.twoAnswer.setEnabled(false);
+                    binding.threeAnswer.setEnabled(false);
+                    binding.fourAnswer.setEnabled(false);
 
 
                 }
@@ -124,28 +124,28 @@ public class ItemQuestionAdapter extends RecyclerView.Adapter<ItemQuestionAdapte
         public void onBind(ResultQuiz model) {
             answerTrue = model.getCorrect_answer();
             binding.questTitleTv.setText(model.getQuestion());
-            binding.questAnswer1Tv.setEnabled(true);
-            binding.questAnswer2Tv.setEnabled(true);
-            binding.questAnswer3Tv.setEnabled(true);
-            binding.questAnswer4Tv.setEnabled(true);
-            binding.questAnswer1Tv.setBackgroundResource(R.drawable.answer);
-            binding.questAnswer2Tv.setBackgroundResource(R.drawable.answer);
-            binding.questAnswer3Tv.setBackgroundResource(R.drawable.answer);
-            binding.questAnswer4Tv.setBackgroundResource(R.drawable.answer);
+            binding.oneAnswer.setEnabled(true);
+            binding.twoAnswer.setEnabled(true);
+            binding.threeAnswer.setEnabled(true);
+            binding.fourAnswer.setEnabled(true);
+            binding.oneAnswer.setBackgroundResource(R.drawable.answer);
+            binding.twoAnswer.setBackgroundResource(R.drawable.answer);
+            binding.threeAnswer.setBackgroundResource(R.drawable.answer);
+            binding.fourAnswer.setBackgroundResource(R.drawable.answer);
             if (model.getIncorrect_answers().size() == 1) {
-                binding.questAnswer2Tv.setVisibility(View.GONE);
-                binding.questAnswer4Tv.setVisibility(View.GONE);
-                binding.questAnswer1Tv.setText(model.getCorrect_answer());
-                binding.questAnswer3Tv.setText(model.getIncorrect_answers().get(0));
+                binding.twoAnswer.setVisibility(View.GONE);
+                binding.fourAnswer.setVisibility(View.GONE);
+                binding.oneAnswer.setText(model.getCorrect_answer());
+                binding.threeAnswer.setText(model.getIncorrect_answers().get(0));
 
             } else {
                 List<String> answers = model.getIncorrect_answers();
                 answers.add(model.getCorrect_answer());
                 Collections.shuffle(answers);
-                binding.questAnswer1Tv.setText(answers.get(0));
-                binding.questAnswer2Tv.setText(answers.get(1));
-                binding.questAnswer3Tv.setText(answers.get(2));
-                binding.questAnswer4Tv.setText(answers.get(3));
+                binding.oneAnswer.setText(answers.get(0));
+                binding.twoAnswer.setText(answers.get(1));
+                binding.threeAnswer.setText(answers.get(2));
+                binding.fourAnswer.setText(answers.get(3));
             }
         }
 
