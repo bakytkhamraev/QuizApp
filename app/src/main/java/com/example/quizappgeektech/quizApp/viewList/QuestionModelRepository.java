@@ -1,4 +1,4 @@
-package com.example.quizappgeektech.quizApp.viewModel;
+package com.example.quizappgeektech.quizApp.viewList;
 
 import com.example.quizappgeektech.quizApp.models.QuestionModel;
 
